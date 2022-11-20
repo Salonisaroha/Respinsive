@@ -1,0 +1,238 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.heading{
+    display:flex;
+    justify-content: space-between;
+    padding:40px;
+    background-color: #061f40;
+    color:aliceblue;
+}
+.button:hover{
+    
+    background-color:red;
+}
+.maincontainer{
+     
+     display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+  
+}
+
+.boxone{
+    background-color:#67979e;
+    width:50vw;
+    height:90vh;
+ padding:60px;
+
+}
+#main{
+    color:black;
+    margin-top: 40px;
+    margin-left:30px ;
+    text-shadow: 3px 2px 2px white;
+    line-height: 2.0em;
+    font-size: 4rem; ;
+}  
+#menu{
+    margin-top: 20px;
+   margin-left: 30px;
+    font-size:20px;
+    
+}
+.social-icons{
+    margin-top:30px;
+    width: 100%;
+    display: flex;
+    height:auto;
+    justify-content: space-evenly;
+  }
+
+
+   
+.boxtwo{
+    background-color:#67979e;
+    width:50vw;
+    height:100vh;
+}
+ .form{
+    margin-top:30px ;
+    margin-left:30px ;
+    background-color:azure;
+    width:30vw;
+    height:70vh;
+    border-radius:10px ;
+    box-shadow:4px 4px 4px 4px whitesmoke ;
+ }   
+  #top{
+    text-align: center;
+    padding:20px;
+}
+.inputs {
+    text-align: justify;
+    margin-left:20px ;
+    font-size:20px ;
+    
+    
+  }
+  
+  .inputs input {
+    height: 30px;
+  }
+  
+  .fname {
+    width:60%;
+    margin-right: 2%;
+    
+  }
+  
+  .lname {
+    width:60%;
+    margin-top:3% ;
+    margin-left:21% ;
+    
+  }
+  
+  .email {
+    margin-top:5%;
+    width:60%;
+    
+    
+  }
+  
+  .password {
+    margin-top:5%;
+    width:60%;
+    
+  }
+  .re-password {
+    margin-top: 5%;
+    width:60%;
+    margin-left:21% ;
+  }
+  
+  .checkbox {
+    margin-top: 5%;
+    margin-left:4% ;
+  }
+  
+  .sign-up-button {
+    display: flex;
+    width:100%;
+    height: 40px;
+    background-color:burlywood;
+    margin-top: 20px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    color:azure;
+  }
+  .sign-up-button a {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .background{
+    width:100vw;
+    height:100vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    ;
+  }
+  
+  
+  .box1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     width:450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.30);
+    
+    
+    
+  }
+  #h1{
+    text-align: center;
+    padding:20px;
+     
+  }
+  #account-text{
+    text-align: center;
+    margin-bottom:25px ;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  
+  .name1{
+    width:47%;
+    margin-left:1% ;
+  
+    
+  }
+  .name2{
+    width:45%;
+    margin-left:2% ;
+  }
+  .mail{
+    margin-left:1%;
+    width:100%;
+    margin-top:3% ;
+    margin-right:4% ;
+  }
+  .number{
+    margin-left:1% ;
+    width:100%;
+    margin-top: 3%;
+    margin-right:4% ;
+  }
+  .pass{
+    width:100%;
+    margin-top:3% ;
+    margin-right:4% ;
+    margin-left:1% ;
+
+  }
+  .verify-pass{
+    width:100%;
+    margin-top:3% ;
+    margin-right:4% ;
+    margin-left:1% ;
+  }
+  .checkbox1{
+    margin-top:3% ;
+    margin-left:4%;
+    text-decoration: none;
+    margin-bottom:20px ;
+  }
+  .signup-button{
+    
+    background-color: blue;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    margin-top:2% ;
+    padding:10px;
+    font-size:20px ;
+    border-radius:8px ;
+  }
+  #or{
+    text-align: center;
+    font-size:15px ;
+  }
+  .menu-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-bottom:30px ;
+  }
